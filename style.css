@@ -13,6 +13,19 @@
   display:none;
 }
 
+nav{
+  background: rgba(0,0,0, .02);
+}
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav-list li {
+  padding: 0.7em;
+  float: center;
+}
 /* Helpers */
 /**************************/
 .margin-top-10 {padding-top:10px;}
@@ -61,8 +74,16 @@
 
 /* Section - Title */
 /**************************/
-#parallax-stars .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
-#parallax-stars .title h1 {font-size:35px; letter-spacing:8px;}
+#parallax-stars .title {
+  background: white;
+  padding: 60px;
+  margin:0 auto;
+  text-align:center;
+}
+#parallax-stars .title h1 {
+  font-size:35px;
+  letter-spacing:8px;
+}
 
 /* Section - Block */
 /**************************/
@@ -170,4 +191,18 @@
     padding: 30px 15px;
     width:290px;
   }
+}
+/* columns */
+.column {
+  float: left;
+  width: 33.33%;
+  font-size: 12;
+}
+/* css grid */
+
+/* Clear floats after the columns */
+.row:after {
+
+  display: table;
+  clear: both;
 }
