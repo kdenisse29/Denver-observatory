@@ -116,7 +116,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url('img/The-Night-Sky-Above.jpg');
+  background-image: url('../img/The-Night-Sky-Above.jpg');
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -130,7 +130,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url('img/denver.jpg');
+  background-image: url('../img/denver.jpg');
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -138,13 +138,14 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-#parallax-stars .parallax-three {
-  padding-top: 200px;
+#parallax-stars
+.parallax-three {
+  padding-top: 250px;
   padding-bottom: 200px;
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url('img/mountains.jpg');
+  background-image: url('../img/mountains.jpg');
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -205,4 +206,31 @@
 .row:after {
   display: table;
   clear: both;
+}
+.img1{
+  float: right;
+  height:250px;
+  width:250px;
+  padding-top:50px;
+}
+.img2{
+  float:auto;
+  height:250px;
+  width:550px;
+}
+.img3{
+  float: right;
+  height:250px;
+  width:250px;
+  padding-top:200px;
+}
+.img4{
+  float: right;
+  height:250px;
+  width:250px;
+  padding-top:450px;
+}
+#model p {
+  float:left;
+  width:100px;
 }

@@ -138,13 +138,14 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-#parallax-stars .parallax-three {
+#parallax-stars
+.parallax-three {
   padding-top: 200px;
   padding-bottom: 200px;
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url('img/mountains.jpg');
+  background-image: url('../img/mountains.jpg');
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
