@@ -196,6 +196,7 @@
 /* columns */
 .grid-container{
   display: grid;
+  grid-template-columns: auto;
   grid-template-rows: auto;
   grid-gap:50px;
 }
